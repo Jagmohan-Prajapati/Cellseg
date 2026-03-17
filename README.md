@@ -35,18 +35,18 @@ graph TD
 
 ## Project Structure
 
-├── .github/workflows/        # CI/CD pipeline
-├── cellSegmentation/         # Core segmentation module
-│   ├── constants/            # Pipeline constants
-│   ├── entity/               # Data entity definitions
-│   ├── components/           # Individual pipeline components
-│   └── pipelines/            # End-to-end pipeline orchestration
-├── data/                     # Raw and processed datasets
-├── research/                 # Experiment notebooks
-├── runs/segment/             # MLflow run outputs
-├── app.py                    # Application entry point
-├── Dockerfile
-└── README.md
+├── .github/workflows/        # CI/CD pipeline  
+├── cellSegmentation/         # Core segmentation module  
+│   ├── constants/            # Pipeline constants  
+│   ├── entity/               # Data entity definitions  
+│   ├── components/           # Individual pipeline components  
+│   └── pipelines/            # End-to-end pipeline orchestration  
+├── data/                     # Raw and processed datasets  
+├── research/                 # Experiment notebooks  
+├── runs/segment/             # MLflow run outputs  
+├── app.py                    # Application entry point  
+├── Dockerfile  
+└── README.md  
 
 ## How the System Works
 1. Raw cell images are ingested through the data ingestion component
@@ -79,7 +79,7 @@ Then open http://localhost:5000 to view run metrics, parameters, and model artif
 ## Example Usage
 python app.py --input data/sample_cell.jpg  
 
-###Output:
+### Output:
 Segmentation complete.  
 Cells detected: 24  
 Confidence avg: 0.91  
